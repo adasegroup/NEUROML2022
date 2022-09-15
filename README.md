@@ -22,7 +22,7 @@ This course is specifically aimed at MSc and PhD students with basic knowledge o
  
 * SEMINAR 1 (09.09, 12.09) EEG analysis, Machine Learning in EEG
 
-* SEMINAR 2 (16.09) MRI data analysis, sources, databases, tools
+* SEMINAR 2 (16.09) MRI data analysis, sources, databases, tools \
   **Note**: To Follow seminar you will need [docker](https://docs.docker.com/get-docker/) installed and supplementary data downloaded
   1) Install Docker;
   2) Download `NEUROML-data.zip` from [YaDisk](https://disk.yandex.ru/d/xxnRbLetEh07YQ) and unzip it to local directory;
@@ -30,7 +30,7 @@ This course is specifically aimed at MSc and PhD students with basic knowledge o
   4) Run docker locally and ensure it working with command `docker run hello-world`;
   5) In terminal: `cd NEUROML2022/seminar2`
   6) Type command `docker build -t neuroml/seminar2:0.0.1 .` and wait for successfull build (the dot . is importaint)
-  7) Run `docker run --rm -it -v /directory/to/downloaded/data/on/step/2:/workspace/data -p 8080:8080 neuroml/seminar2:0.0.1`;
+  7) Run `docker run --rm -it -v /directory/to/downloaded/data/on/step/2:/workspace/data -p 8080:8080 neuroml/seminar2:0.0.1`;\
      **Note**: If you have *Windows*, pay attention to paths, type paths in conventional powershell script `C:\directory\to\downloaded\data\on\step\2`
   8) Open browser (preferebly Chrome) -> localhost:8080
      
