@@ -34,7 +34,20 @@ This course is specifically aimed at MSc and PhD students with basic knowledge o
      **Note**: If you have *Windows*, pay attention to paths, type paths in conventional powershell script `C:\directory\to\downloaded\data\on\step\2`
   8) Open browser (preferebly Chrome) -> localhost:8080
      
-   
+* SEMINAR 3 (19.09) Machine Learning for structural MRI data analysis 
+
+* SEMINAR 4 (23.09) fMRI data preprocessing, analysis, GLM
+
+  1) First follow the instruction for geting the docker image: https://miykael.github.io/nipype_tutorial/notebooks/introduction_docker.html.
+  2) Clone the seminar4 repository
+  3) Run the container and mount the folder: docker run -it --rm -p 8888:8888 -v /path_to_seminar-4:/home/neuro/nipype_tutorial/notebooks/seminar miykael/nipype_tutorial jupyter notebook
+  4) Dowload the data from: https://www.openfmri.org/dataset/ds000114/
+  
+* SEMINAR 5 (26.09) Functional connectivity analysis and Machine Learning modelling
+
+* SEMINAR 6 (30.09) Deep Learning models and fMRI data analysis
+
+* SEMINAR 7 (03.10) Interpretation of ML models
 
 #### Datasets used (please get a personal account and complete data use agreement):
 * Human Connectome Project https://db.humanconnectome.org/data/projects/HCP_1200
